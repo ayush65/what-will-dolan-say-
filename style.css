@@ -1,0 +1,80 @@
+  
+:root {
+          --light-color: #BBA79C;
+          --dark-color:#242B2E;
+          --bg-color: #9F8170;
+          --text-color: white;
+          --inner-text-color: #112222;
+      }
+      
+      body {
+          margin: 0;
+          background-color: var(--bg-color);
+          color: var(--text-color);
+          background-image: url(../img/groot-removebg.png);
+          background-repeat: space;
+          background-size: auto;
+          
+      }
+      
+      nav {
+          padding: 2rem;
+          background-color: var(--dark-color);
+          text-align: center;
+          font-size: 2rem;
+          margin-bottom: 5rem;
+          border-bottom-left-radius: 3rem;
+      }
+      
+      .container {
+          max-width: 600px;
+          padding: 0rem 2rem;
+          margin: auto;
+      }
+      
+      textarea {
+          font-size: 2rem;
+          display: block;
+          margin: 1.5rem;
+          padding: 1rem;
+          min-height: 15vh;
+          width: 70%;
+          color: var(--inner-text-color);
+          background-color: var(--light-color);
+          border: 3.5px solid var(--dark-color);
+          border-radius: 1rem;
+      }
+      
+      button {
+          margin-left: 1.5rem;
+          padding: 1rem;
+          font-size: 1rem;
+          background-color: var(--light-color);
+          border-radius: 2rem;
+          border: 3px solid var(--dark-color);
+          color: var(--dark-color);
+          width: 25vh;
+      }
+      
+      #outputField {
+          font-size: 1.5rem;
+          display: block;
+          margin: 1.5rem;
+          padding: 1rem;
+          min-height: 10vh;
+          width: 70%;
+          margin-bottom: 3rem;
+          border-radius: 1rem;
+          border: 3.5px solid var(--dark-color);
+          background-color: var(--light-color);
+          color: var(--inner-text-color);
+      }
+      
+   
+      
+      .link {
+          box-sizing: border-box;
+          text-decoration: none;
+          padding: 0.5rem 1rem;
+          color: #41fdfe;
+      }
