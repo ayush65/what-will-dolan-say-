@@ -1,8 +1,8 @@
   
 :root {
-          --light-color: #BBA79C;
+           --light-color: white;
           --dark-color:#242B2E;
-          --bg-color: #9F8170;
+          --bg-color: white;
           --text-color: white;
           --inner-text-color: #112222;
       }
